@@ -1,0 +1,118 @@
+body {
+	background-color: white;
+	margin: 0 auto;
+	color: #7A6667;
+	font-family: sans-serif;
+	max-width: 1200px;
+}
+
+h1 {
+	color: #CB3362;
+	font-size: 35px;
+}
+
+.active {
+	color: #CB3362;
+}
+
+.secPadding {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.sec-banner {
+	background-color: #EEECED;
+}
+
+#banner-box {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#banner-nav {
+	list-style-type: none;
+	text-transform: uppercase;
+	float: right;
+}
+
+#banner-nav li {
+	display: flex;
+	font-size: 20px;
+	padding: 0px 10px;
+}
+
+.flex-container{
+	display: flex;
+}
+
+#imgCircles {
+	float: right;
+	position: absolute;
+	bottom: 30%;
+	right: 20%;
+	text-align: center;
+	color: white;
+}
+
+#imgCircles-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.sec-image {
+	position: relative;
+	background-image: url("src/bg-home.jpg");
+	width:100%;
+	height: 700px;
+	background-repeat: no-repeat;
+}
+
+.sec-product {
+	display: inline-block;
+	max-width: 100%;
+	background-color: #EEECED;
+}
+
+.sec-product-text {
+	padding-top: 40px;
+	max-width: 60%;
+	float:left;
+}
+
+.sec-product-img {
+	height:100%;
+	width:auto;
+}
+
+
+
+
+.sec-links {
+	width:100%;
+	background-color: #C8C10E;
+	padding: 0;
+	margin: 0;
+}
+
+.sec-links-ul {
+	align-items: baseline;
+	width: 100%;
+	list-style: none;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+
+
+.sec-links-ul div{
+	width: 120px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.sec-sm {
+	background-color: #CB3362;
+}
